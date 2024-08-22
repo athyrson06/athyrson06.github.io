@@ -1,34 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset = "UTF-8">
+    <meta name    = "viewport" content = "width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
+            font-family     : Arial, sans-serif;
+            margin          : 0;
+            padding         : 0;
             background-color: #f4f4f4;
-            color: #333;
+            color           : #333;
         }
         header {
             background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
+            color           : #fff;
+            padding         : 10px 0;
+            text-align      : center;
         }
         .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px;
+            width  : 80%;
+            margin : 0 auto;
+            padding: 5px;
         }
         .repository {
             background-color: #fff;
-            padding: 20px;
-            margin: 10px 0;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding         : 20px;
+            margin          : 10px 0;
+            border-radius   : 5px;
+            box-shadow      : 0 0 10px rgba(0,0,0,0.1);
         }
         .repository h2 {
             margin: 0 0 10px;
@@ -38,7 +38,7 @@
         }
         .repository a {
             text-decoration: none;
-            color: #007BFF;
+            color          : #007BFF;
         }
         .repository a:hover {
             text-decoration: underline;
@@ -47,24 +47,56 @@
 </head>
 <body>
     <header>
-        <h1>My GitHub Portfolio</h1>
-        <p>Welcome to my portfolio! Here are some of the projects I've worked on:</p>
+        <h1>Athyrson M. Ribeiro</h1>
+        <p>Athyrson M. Ribeiro is a Ph.D. candidate in Computer Science at the Institute of Computing at the University of Campinas (IC - UNICAMP).</p>
+        <p>He is a member of the <a href="https://recod.ai/equipe/athyrson-machado-ribeiro/" style="text-decoration: none; color: inherit;">Recod.ai Lab</a>. He is also a member of the Hub of Artificial Intelligence and Cognitive Architectures (HIAAC),</p>
+        <p>performing research in Trusthyworth AI, mainly in the area of reject inference and explainability.</p>
     </header>
 
     <div class="container">
-        <div class="repository">
-            <h2>Project 1: Example Repo Name</h2>
-            <p>Description: This project is about...</p>
-            <p><a href="https://github.com/your-username/example-repo" target="_blank">View Repository</a></p>
-        </div>
-
-        <div class="repository">
-            <h2>Project 2: Another Example Repo</h2>
-            <p>Description: This project focuses on...</p>
-            <p><a href="https://github.com/your-username/another-example-repo" target="_blank">View Repository</a></p>
-        </div>
-
-        <!-- Add more repositories as needed -->
+        <a href="https://github.com/athyrson06/bandeco-calendar" style="text-decoration: none; color: inherit;">
+            <div class="repository">
+                <h2>
+                    <img src="./imgs/bandecocalendar.png" alt="Icon" style="width: 80px; height: 80px; vertical-align: middle;">
+                    Google Calendar Integration Setup
+                </h2>
+                <p>Description: This project integrates UNICAMP's restaurant menu API with the Google Calendar API.</p>
+            </div>
+        </a>
     </div>
+    
+    
+    <div class = "container">
+        <a href = "https://github.com/athyrson06/pca-jax" style = "text-decoration: none; color: inherit;">
+            <div class = "repository">
+                <h2>
+                    <img src = "./imgs/covariance_matrix.png" alt = "Icon" style = "width: 80px; height: 80px; vertical-align: middle;">
+                    PCA using JAX
+                </h2>
+                <p>Description: This is a first experiment to implement PCA (Principal Component Analysis) and Covariance Matrix from scratch (mostly) using JAX.</p>
+        </div>
+        </a>
+    </div>
+    
+    <div class="container">
+        <a href="https://github.com/athyrson06/ComplementOfTwoConverter" style="text-decoration: none; color: inherit;">
+            <div class="repository">
+                <h2>
+                    <img src="./imgs/complement_of_two.png" alt="Icon" style="width: 80px; height: 80px; vertical-align: middle;">
+                    Complement of Two Converter
+                </h2>
+                <p>Description: This project is a complement of two converter that converts a decimal number to its complement of two representation.</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="container">
+        <a href="https://github.com/athyrson06/Snake_Game" style="text-decoration: none; color: inherit;">
+            <div class="repository">
+                <h2>
+                    <img src="./imgs/snake_game.png" alt="Icon" style="width: 80px; height: 80px; vertical-align: middle;">
+                    Snake Game
+                </h2>
+                <p>Description: Snake Game crafted with OpenGL in C.</p>
 </body>
 </html>
